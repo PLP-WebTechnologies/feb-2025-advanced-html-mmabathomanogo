@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced HTML5 Example</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Advanced HTML5 Elements</h1>
+    </header>
+
+    <!-- Ordered List Section -->
+    <section>
+      <h2>My Top Priorities</h2>
+      <ol type="I">
+        <li>Learn HTML5</li>
+        <li>Build Webpages</li>
+        <li>Practice Forms</li>
+        <li>Master CSS</li>
+        <li>Explore JavaScript</li>
+      </ol>
+    </section>
+
+    <!-- Image Section -->
+    <section>
+      <h2>Beautiful View</h2>
+      <img
+        src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg"
+        alt="Scenic Mountain View"
+        width="500"
+      />
+    </section>
+
+    <!-- Table Section -->
+    <section>
+      <h2>Contact List</h2>
+      <table border="1" cellpadding="8">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alice Johnson</td>
+            <td>123 Main St, Cape Town</td>
+            <td>083-123-4567</td>
+            <td>alice@plp.com</td>
+          </tr>
+          <tr>
+            <td>Brian Smith</td>
+            <td>456 Oak Rd, Durban</td>
+            <td>072-987-6543</td>
+            <td>brian@plp.com</td>
+          </tr>
+          <tr>
+            <td>Carla Daniels</td>
+            <td>789 Pine Ave, Pretoria</td>
+            <td>061-555-2222</td>
+            <td>carla@plp.com</td>
+          </tr>
+          <tr>
+            <td>David Lee</td>
+            <td>321 Maple Ln, Johannesburg</td>
+            <td>082-444-3333</td>
+            <td>david@plp.com</td>
+          </tr>
+          <tr>
+            <td>Eva Adams</td>
+            <td>654 Cedar St, Bloemfontein</td>
+            <td>073-888-9999</td>
+            <td>eva@plp.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section>
+      <h2>Registration Form</h2>
+      <form>
+        <!-- Name Field -->
+        <label for="name">Full Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+          required
+        /><br /><br />
+
+        <!-- Email Field -->
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        /><br /><br />
+
+        <!-- Password Field -->
+        <label for="password">Password:</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Create a password"
+          minlength="6"
+          required
+        /><br /><br />
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label><br />
+        <input type="date" id="dob" name="dob" required /><br /><br />
+
+        <!-- Dropdown -->
+        <label for="country">Select your country:</label><br />
+        <select id="country" name="country" required>
+          <option value="">--Choose an option--</option>
+          <option value="sa">South Africa</option>
+          <option value="usa">USA</option>
+          <option value="uk">UK</option></select
+        ><br /><br />
+
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label><br />
+
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label><br /><br />
+
+        <!-- Checkboxes -->
+        <p>Select your interests:</p>
+        <input type="checkbox" id="coding" name="interests" value="coding" />
+        <label for="coding">Coding</label><br />
+
+        <input type="checkbox" id="music" name="interests" value="music" />
+        <label for="music">Music</label><br />
+
+        <input type="checkbox" id="sports" name="interests" value="sports" />
+        <label for="sports">Sports</label><br /><br />
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register" />
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Created by Mmabatho Manogo 💻✨</p>
+      <p>
+        Contact:
+        <a href="mailto:Mmabatho@plp.com">Mmabatho@plp.com</a>
+      </p>
+    </footer>
+  </body>
+</html>
